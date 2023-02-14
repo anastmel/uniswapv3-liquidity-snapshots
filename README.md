@@ -16,7 +16,7 @@ A sample script is included in this repository and named example.py. It demonstr
 import research_module as kk
 
 # Step 1 : Select parameters 
-my_api_key = 'fb072045bd28bd8a5a37b69e66a3346b' # To get an API Key, contact kaiko.com
+my_api_key = 'paste_your_api_key_here' # To get an API Key, contact kaiko.com
 pool_address='0xac4b3dacb91461209ae9d41ec517c2b9cb1b7daf' # all characters should be in lower case
 price_range = 0.2 # 0.2 stands for +/-20% with respect to the block's current price
 start_time = '2023-01-03T14:00:00.000Z' 
