@@ -1,15 +1,15 @@
 # uniswapv3-liquidity-snapshots
 ### A python module, by Kaiko
-The research_module.py module provides functions for easily retrieving, charting, and aggregating Uniswap V3 liquidity pool data provided by Kaiko.
+The `research_module.py` module provides functions for easily retrieving, charting, and aggregating Uniswap V3 liquidity pool data provided by Kaiko.
 
 ## Installation 
-The module containing all the functions is named research_module.py. To use its functions, place it in your working directory and import it into your scripts.
+The module containing all the functions is named `research_module.py`. To use its functions, place it in your working directory and import it into your scripts.
 ```python
 import research_module as kk
 ```
 
 ## Example
-A sample script is included in this repository and named example.py. It demonstrates how to use each function within the research_module.py module.
+A sample script is included in this repository and named `example.py`. It demonstrates how to use each function within the `research_module.py` module.
 
 ### Example 1: Retrieving Liquidity Distribution Data for the APE-WETH 0.3% Liquidity Pool on Uniswap V3
 ```python
