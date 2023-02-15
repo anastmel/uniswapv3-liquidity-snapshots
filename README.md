@@ -1,4 +1,4 @@
-# uniswapv3-liquidity-snapshots
+# Uniswap V3 Liquidity Distribution & TVL
 ### A python module, by Kaiko
 The `research_module.py` module provides functions for easily retrieving, charting, and aggregating Uniswap V3 liquidity pool data provided by Kaiko.
 
