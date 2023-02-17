@@ -1,4 +1,4 @@
-import research_module as kk
+import usp3_kaiko as kk
 
 ######################################################################################
 # GET Uniswap V3 Liquidity Pool data over time 
