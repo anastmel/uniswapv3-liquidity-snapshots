@@ -3,7 +3,7 @@
 The `usp3_kaiko.py` module provides functions for easily retrieving, charting, and aggregating Uniswap V3 liquidity pool data provided by Kaiko.
 
 ## Installation 
-The module containing all the functions is named `usp3_kaiko.py`. To use its functions, place it in your working directory and import it into your scripts.
+The module containing all the functions is named `usp3_kaiko.py`. To use its functions, place it in your working directory and import it into your scripts. Make sure to also import the `Kaiko_logo.jpg` file in this same working directly to be able to retrieve and chart the requested data. 
 ```python
 import usp3_kaiko as kk
 ```
