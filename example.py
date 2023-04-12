@@ -19,6 +19,7 @@ snapshots_data = kk.get_usp3_liquidity(api_key = my_api_key,
                                         end_time = end_time,
                                         price_range = price_range)
 
+snapshots_data.to_csv('univ3_snapshots.csv')
 
 ######################################################################################
 # CHART Uniswap V3 Liquidity Distribution
@@ -32,6 +33,9 @@ kk.generate_gif(pool_address=pool_address, df=snapshots_data)
 # and deduce the TVL within the selected range
 ######################################################################################
 tvl = kk.get_tvl(snapshots_data)
+
+tvl.to_csv('tvl_univ3.csv')
+
 
 ######################################################################################
 # Plot the TVL within the selected price range
